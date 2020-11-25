@@ -406,6 +406,62 @@
         "menuId": "dbd64de0-2238-11eb-af78-4f9218e5570e",
         "funcUrl": "/foundation/term/water",
         "menuIcon": "el-icon-menu"
+    },
+    {
+        "upMenuId": "0",
+        "menuName": "元数据管理",
+        "menuId": "cb2a7910-2a0a-11eb-8d8d-0bd6ea2a1279",
+        "funcUrl": "/term/metadata/library",
+        "menuIcon": "el-icon-menu"
+    },
+    {
+        "upMenuId": "cb2a7910-2a0a-11eb-8d8d-0bd6ea2a1279",
+        "menuName": "标准字典库",
+        "menuId": "cb2a7911-2a0a-11eb-8d8d-0bd6ea2a1279",
+        "funcUrl": "/term/metadata/library",
+        "menuIcon": "el-icon-menu"
+    },
+    {
+        "upMenuId": "cb2a7910-2a0a-11eb-8d8d-0bd6ea2a1279",
+        "menuName": "数据字典",
+        "menuId": "cb2a7911-2a0a-11eb-8d8d-0bd6ea2a1254",
+        "funcUrl": "/term/metadata/dataLibrary",
+        "menuIcon": "el-icon-menu"
+    },
+    {
+        "upMenuId": "cb2a7910-2a0a-11eb-8d8d-0bd6ea2a1279",
+        "menuName": "数据库表结构",
+        "menuId": "cb2a7911-2a0a-11eb-8d8d-0bd6ab2a1254",
+        "funcUrl": "/term/metadata/database",
+        "menuIcon": "el-icon-menu"
+    },
+    {
+        "upMenuId": "cb2a7910-2a0a-11eb-8d8d-0bd6ea2a1279",
+        "menuName": "服务定义",
+        "menuId": "cb2a7911-2a0a-11eb-8d8d-0bd6ab2a03",
+        "funcUrl": "/term/metadata/serviceDefine",
+        "menuIcon": "el-icon-menu"
+    },
+    {
+        "upMenuId": "cb2a7910-2a0a-11eb-8d8d-0bd6ea2a1279",
+        "menuName": "服务授权",
+        "menuId": "cb2a7911-2a0a-11eb-8d8d-0b16ab2a1254",
+        "funcUrl": "/term/metadata/serviceAuth",
+        "menuIcon": "el-icon-menu"
+    },
+    {
+        "upMenuId": "cb2a7910-2a0a-11eb-8d8d-0bd6ea2a1279",
+        "menuName": "服务接口定义",
+        "menuId": "cb2a7911-2a0a-11eb-8d8d-0b16ab14a125",
+        "funcUrl": "/term/metadata/serviceInterDefine",
+        "menuIcon": "el-icon-menu"
+    },
+    {
+        "upMenuId": "cb2a7910-2a0a-11eb-8d8d-0bd6ea2a1279",
+        "menuName": "服务接口参数定义",
+        "menuId": "cb2a7911-2a0a-11eb-8d8d-0b16ab2a05",
+        "funcUrl": "/term/metadata/serviceInterface",
+        "menuIcon": "el-icon-menu"
     }
 
 ]

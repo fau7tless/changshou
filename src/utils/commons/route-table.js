@@ -11,6 +11,7 @@ import PublicPage from '@/router/route-public-page'
 import Template from '@/router/route-template'
 import Test from '@/router/route-test'
 import Trade from '@/router/route-trade'
+import Termmetadata from '@/router/term/route-metadata'
 import Termother from '@/router/term/route-other'
 
 // 路由列表
@@ -28,6 +29,7 @@ Reflect.apply([].push, routes, PublicPage)
 Reflect.apply([].push, routes, Template)
 Reflect.apply([].push, routes, Test)
 Reflect.apply([].push, routes, Trade)
+Reflect.apply([].push, routes, Termmetadata)
 Reflect.apply([].push, routes, Termother)
 
 export default routes

@@ -1,0 +1,14 @@
+[
+  {
+    "value":"01",
+    "text":"String"
+  },
+  {
+    "value":"02",
+    "text":"Number"
+  },
+  {
+    "value":"03",
+    "text":"Money"
+  }
+]
