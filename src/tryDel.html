@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="action_wrapper">
+    <div class="item_wrapper">
+        <div class="item">
+            <div class="circle"></div>
+            <span class="desc">[风险]该客户为黑名单客户</span>
+        </div>
+        <div class="item">
+            <div class="circle"></div>
+            <span class="desc">[内部]客户资料缺失，需要补录地址资料</span>
+        </div>
+        <div class="item">
+            <div class="circle"></div>
+            <span class="desc">[还款]该客户尾号为7878信用卡欠费800元</span>
+        </div>
+        <div class="item">
+            <div class="circle"></div>
+            <span class="desc">[到期]理财产品、定期类型产品到期前消息</span>
+        </div>
+        <div class="item">
+            <div class="circle"></div>
+            <span class="desc">[风险]理财产品、定期类型产品到期前消息</span>
+        </div>
+        <div class="item">
+            <div class="circle"></div>
+            <span class="desc">[到期]理财产品、定期类型产品到期前消息</span>
+        </div>
+    </div>
+</div>
+
+<style>
+    /*用户操作部分*/
+    .el-tabs__header {
+        margin-bottom: 0 !important;
+    }
+
+    .action_wrapper {
+        /*width: 98%;*/
+        /*margin1-bottom: 20px;*/
+        height: 120px;
+        /*overflow: scroll;*/
+    }
+
+    .action_wrapper .item_wrapper {
+        overflow: auto;
+        height: 270px;
+    }
+
+    .action_wrapper .item {
+        width: 95%;
+        border-bottom: dotted 3px #ccc;
+        height: 70px;
+        line-height: 70px;
+    }
+
+    .action_wrapper .circle {
+        background-color: #6ea97c;
+        width: 10px;
+        height: 10px;
+        border-radius: 5px;
+        display: inline-block;
+        margin-left: 10px;
+    }
+
+    .action_wrapper .desc {
+        margin-left: 10px;
+    }
+</style>
+</body>
+</html>

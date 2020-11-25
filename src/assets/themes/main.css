@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body,
+#app,
+.wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.wrapper{
+    position: relative;
+}
+html,body{
+    overflow-x: auto;
+}
+body {
+    font-family: 'PingFang SC', "microsoft yahei", "Helvetica Neue", Helvetica, arial, STHeiTi, sans-serif;
+}
+
+a {
+    text-decoration: none
+}
+
+.content-box {
+    position: absolute;
+    left: 250px;
+    right: 0;
+    top: 70px;
+    bottom: 0;
+    overflow-y: scroll;
+    -webkit-transition: left .3s ease-in-out;
+    transition: left .3s ease-in-out;
+    background: #f0f0f0;
+}
+
+.content {
+    width: auto;
+    padding: 10px;
+}
+
+.content-collapse {
+    left: 65px;
+}
+
+.container {
+    padding: 30px;
+    background: #fff;
+    border: 1px solid #ddd;
+    /* border-radius: 5px; */
+    /* box-shadow: 0 2px 4px 0 rgba(0,0,0,.12), 0 0 6px 0 rgba(0,0,0,.04); */
+}
+
+.crumbs {
+    margin-bottom: 20px;
+}
+
+.pagination {
+    margin: 20px 0;
+    text-align: right;
+}
+
+.plugins-tips {
+    padding: 20px 10px;
+    margin-bottom: 20px;
+}
+
+.el-button+.el-tooltip {
+    margin-left: 10px;
+}
+
+.mgb20 {
+    margin-bottom: 20px;
+}
+.mgb15 {
+    margin-bottom: 15px;
+}
+.mgt10 {
+    margin-top: 10px;
+}
+.mgt20 {
+    margin-top: 20px;
+}
+
+.move-enter-active,
+.move-leave-active {
+    transition: opacity .5s;
+}
+
+.move-enter,
+.move-leave {
+    opacity: 0;
+}
+
+/*BaseForm*/
+
+.form-box {
+    width: 600px;
+}
+
+.form-box .line {
+    text-align: center;
+}
+
+.el-time-panel__content::after,
+.el-time-panel__content::before {
+    margin-top: -7px;
+}
+
+.el-time-spinner__wrapper .el-scrollbar__wrap:not(.el-scrollbar__wrap--hidden-default) {
+    padding-bottom: 0;
+}
+
+/*Upload*/
+
+.pure-button {
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.g-core-image-corp-container .info-aside {
+    height: 45px;
+}
+
+.el-upload--text {
+    background-color: #fff;
+    border: 1px dashed #d9d9d9;
+    border-radius: 6px;
+    box-sizing: border-box;
+    width: 360px;
+    height: 180px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.el-upload--text .el-icon-upload {
+    font-size: 67px;
+    color: #97a8be;
+    margin: 40px 0 16px;
+    line-height: 50px;
+}
+
+.el-upload--text {
+    color: #97a8be;
+    font-size: 14px;
+    text-align: center;
+}
+
+.el-upload--text em {
+    font-style: normal;
+}
+
+/*VueEditor*/
+
+.ql-container {
+    min-height: 400px;
+}
+
+.ql-snow .ql-tooltip {
+    transform: translateX(117.5px) translateY(10px) !important;
+}
+
+.editor-btn {
+    margin-top: 20px;
+}
+
+/*markdown*/
+
+.v-note-wrapper .v-note-panel {
+    min-height: 500px;
+}
+
+.clearfix:after{
+    content:" ";
+    display:block;
+    height:0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix{
+    overflow: hidden;
+    _zoom:1;
+}
+.center{
+    text-align: center;
+}
+.w100{
+    width:100%;
+}
+
+.el-transfer-panel p.el-transfer-panel__header{
+    padding-top: 10px;
+}
+.el-transfer-panel{
+    width: 300px;
+}
+.el-transfer.dialog-transfer{
+    width: 782px !important;
+}
+/*.fox-group .fox-button-row .el-button.el-button--primary,.fox-group .fox-button-row .el-button.el-button--default{*/
+/*    width: auto;*/
+/*    min-width: 92px;*/
+/*    height: 36px;*/
+/*}*/
+/*.fox-group .fox-group-item .el-button.el-button--primary,.fox-group .fox-group-item .el-button.el-button--default{*/
+/*    width: auto;*/
+/*    min-width: 92px;*/
+/*    height: 36px;*/
+/*}*/
+
+.fox-group .el-form-item {
+    margin-bottom: 20px;
+}
+
+.fox-group-header{
+    margin-bottom: 10px;
+}
+
+.fox-button-row+.fox-table-wrap,.fox-table-wrap+.fox-table-wrap,.fox-group+.fox-table-wrap{
+    margin-top: 16px;
+}
+.el-button .iconfont{
+    font-size: 14px;
+}
+.el-button .iconfont+span {
+    margin-left: 8px;
+}
+.fox-group+.fox-group{
+    margin-top: 24px;
+}
+.fox-footer-bar{
+    height:84px;
+    line-height: 84px;
+}
+.fox-footer-bar ~ .fox-content {
+    padding-bottom: 84px;
+}
+.fox-footer-bar .fox-footer-bar-inner{
+    padding-top: 24px; padding-bottom: 24px; height: auto;
+}
+.fox-footer-bar .fox-footer-bar-inner .el-button.el-button.el-button--primary,.fox-footer-bar .fox-footer-bar-inner .el-button.el-button.el-button--default{
+    margin-right: 0;
+}
+.fox-footer-bar.fox-right .fox-footer-bar-inner .el-button.el-button.el-button--primary:last-child,.fox-footer-bar.fox-right .fox-footer-bar-inner .el-button.el-button.el-button--default:last-child{
+    margin-right: 30px;
+}
+.el-table .cell{
+    white-space: nowrap; overflow: hidden;
+}
+.el-dialog .fox-content{
+    max-height: 730px;
+}
+
+.fox-content{
+    max-height: 700px;
+}
+
+.fox-page .el-button{
+    height: 36px;
+}
+
+.el-message-box{
+    width: 488px; border-radius: 3px; padding-bottom: 24px;
+}
+.el-message-box .el-message-box__header{
+    border-bottom: 1px solid #ebeef5; height: 20px; padding: 15px 15px 15px 24px;
+}
+.el-message-box__title{
+    font-size: 14px; font-weight: bold;
+}
+.el-message-box__content{
+    padding:32px 24px; min-height: 30px;
+}
+
+.el-message-box .el-message-box__btns {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 24px;
+}
+
+.el-message-box .el-message-box__btns > button{
+    margin-left: 10px; min-width: 100px; border-radius: 2px; height:36px;
+}
+.el-message-box .el-message-box__btns > .el-button--primary{
+    order:-1
+}
+.fox-table-setting-row{
+    padding: 0 24px;
+}
+.fox-table-setting-row button.el-button--primary {
+    background: -webkit-linear-gradient(left, #F9D7AF, #EAC58B);
+    border: 0;
+    color: #6F4300;
+    font-weight: bold;
+}
+.fox-table-setting-row button.el-button--primary:hover,
+.fox-table-setting-row button.el-button--primary:focus{
+    background: -webkit-linear-gradient(left, #FADFBE, #EED0A2);
+}
+.fox-table-setting-row button.el-button--primary:active{
+    background: -webkit-linear-gradient(left, #EFCEA8, #E0BD85);
+}
+
+.el-form-item.is-required:not(.is-no-asterisk) .el-form-item__label-wrap>.el-form-item__label:before, .el-form-item.is-required:not(.is-no-asterisk)>.el-form-item__label:before {
+    margin-right: 2px;
+}

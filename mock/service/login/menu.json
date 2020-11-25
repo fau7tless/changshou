@@ -1,0 +1,411 @@
+[
+    {
+        "upMenuId": "0",
+        "menuName": "核心业务",
+        "menuId": "01",
+        "funcUrl": "",
+        "menuIcon": "el-icon-menu"
+    },
+    {
+        "menuId": "010101",
+        "upMenuId": "01",
+        "menuIcon": "el-icon-menu",
+        "funcUrl": "/trade/core/cash/t080303",
+        "menuName": "现金存款"
+    },
+    {
+        "menuId": "010102",
+        "upMenuId": "01",
+        "menuIcon": "el-icon-menu",
+        "funcUrl": "/trade/core/cash/draw",
+        "menuName": "现金取款"
+    },
+    {
+        "menuId": "010103",
+        "upMenuId": "01",
+        "menuIcon": "el-icon-s-check",
+        "funcUrl": "/verify/verifyidcard",
+        "menuName": "联网核查"
+    },
+    {
+        "menuId": "010104",
+        "upMenuId": "01",
+        "menuIcon": "el-icon-menu",
+        "funcUrl": "/comprehensiveContract",
+        "menuName": "综合签约"
+    },
+    {
+        "menuId": "010105",
+        "upMenuId": "01",
+        "menuIcon": "el-icon-menu",
+        "funcUrl": "/trade/pub/authorize-list",
+        "menuName": "待办列表"
+    },
+    {
+        "menuId": "010106",
+        "upMenuId": "01",
+        "menuIcon": "el-icon-s-open",
+        "funcUrl": "/trade/openCard",
+        "menuName": "开卡"
+    },
+    {
+        "menuId": "010108",
+        "upMenuId": "01",
+        "menuIcon": "el-icon-s-check",
+        "funcUrl": "/business/receipt",
+        "menuName": "存单管理"
+    },
+    {
+        "upMenuId": "0",
+        "menuName": "中间业务",
+        "menuId": "02",
+        "funcUrl": "",
+        "menuIcon": "el-icon-menu"
+    },
+    {
+        "upMenuId": "02",
+        "menuId": "020101",
+        "menuIcon": "el-icon-s-open",
+        "funcUrl": "/test/testPeripgerais",
+        "menuName": "外设测试"
+    },
+    {
+        "upMenuId": "0",
+        "menuId": "09",
+        "hidden": true,
+        "menuIcon": "el-icon-s-open",
+        "funcUrl": "/trade/core/easypage",
+        "menuName": "外部链接页面"
+    },
+    {
+        "upMenuId": "0",
+        "menuId": "10",
+        "hidden": true,
+        "menuIcon": "el-icon-s-open",
+        "funcUrl": "/trade/help",
+        "menuName": "帮助"
+    },
+    {
+        "upMenuId": "0",
+        "menuName": "公共查询",
+        "menuId": "06",
+        "funcUrl": "",
+        "menuIcon": "el-icon-menu"
+    },
+    {
+        "menuId": "060101",
+        "upMenuId": "06",
+        "menuIcon": "el-icon-menu",
+        "funcUrl": "/foundation/business/query",
+        "menuName": "交易日志查询"
+    },
+    {
+        "menuId": "060102",
+        "upMenuId": "06",
+        "menuIcon": "el-icon-menu",
+        "funcUrl": "/verify/verifytradelog",
+        "menuName": "联网查询交易日志查询"
+    },
+    {
+        "upMenuId": "0",
+        "menuName": "系统管理",
+        "menuId": "07",
+        "funcUrl": "",
+        "menuIcon": "el-icon-menu"
+    },
+    {
+        "menuId": "0701",
+        "upMenuId": "07",
+        "menuIcon": "el-icon-menu",
+        "funcUrl": "",
+        "menuName": "单点登录"
+    },
+    {
+        "menuId": "070101",
+        "upMenuId": "0701",
+        "menuIcon": "el-icon-menu",
+        "funcUrl": "/foundation/sso/systemConfig",
+        "menuName": "单点登录系统配置"
+    },
+    {
+        "menuId": "070102",
+        "upMenuId": "0701",
+        "menuIcon": "el-icon-menu",
+        "funcUrl": "/foundation/sso/tellerBind",
+        "menuName": "代填系统柜员绑定"
+    },
+    {
+        "menuId": "070103",
+        "upMenuId": "0701",
+        "menuIcon": "el-icon-menu",
+        "funcUrl": "/foundation/sso/bindQuery",
+        "menuName": "柜员绑定系统查询"
+    },
+    {
+        "menuId": "070104",
+        "upMenuId": "0701",
+        "menuIcon": "el-icon-menu",
+        "funcUrl": "/foundation/sso/ssoLoginLog",
+        "menuName": "单点登录日志查询"
+    },
+    {
+        "menuId": "070105",
+        "upMenuId": "0701",
+        "menuIcon": "el-icon-menu",
+        "funcUrl": "/foundation/sso/systemBind",
+        "menuName": "令牌系统柜员绑定"
+    },
+    {
+        "menuId": "0702",
+        "upMenuId": "07",
+        "menuIcon": "el-icon-menu",
+        "funcUrl": "",
+        "menuName": "柜员管理"
+    },
+    {
+        "menuId": "070201",
+        "upMenuId": "0702",
+        "menuIcon": "el-icon-menu",
+        "funcUrl": "/admin/sm/user",
+        "menuName": "柜员维护"
+    },
+    {
+        "menuId": "070202",
+        "upMenuId": "",
+        "menuIcon": "el-icon-menu",
+        "funcUrl": "/f07teller/institutionManage",
+        "menuName": "机构维护"
+    },
+    {
+        "menuId": "070203",
+        "upMenuId": "0702",
+        "menuIcon": "el-icon-menu",
+        "funcUrl": "/admin/sm/duty",
+        "menuName": "岗位综合管理"
+    },
+    {
+        "menuId": "070204",
+        "upMenuId": "0702",
+        "menuIcon": "el-icon-menu",
+        "funcUrl": "/admin/sm/role",
+        "menuName": "角色综合管理"
+    },
+    {
+        "menuId": "070205",
+        "upMenuId": "0702",
+        "menuIcon": "el-icon-menu",
+        "funcUrl": "/trade/core/cash/templateSeal",
+        "menuName": "印章管理"
+    },
+    {
+        "menuId": "070206",
+        "upMenuId": "0702",
+        "menuIcon": "el-icon-menu",
+        "funcUrl": "/trade/core/cash/sealRuleConfig",
+        "menuName": "签章规则配置"
+    },
+    {
+        "menuId": "070208",
+        "upMenuId": "0702",
+        "menuIcon": "el-icon-menu",
+        "funcUrl": "/trade/core/cash/eVoucherChannelApply",
+        "menuName": "电子凭证渠道申请"
+    },
+    {
+        "menuId": "070209",
+        "upMenuId": "0702",
+        "menuIcon": "el-icon-menu",
+        "funcUrl": "/trade/core/cash/eVoucherManage",
+        "menuName": "电子凭证启用管理"
+    },
+    {
+        "menuId": "070210",
+        "upMenuId": "0702",
+        "menuIcon": "el-icon-menu",
+        "funcUrl": "/trade/core/cash/templateMaintain",
+        "menuName": "数据模版维护"
+    },
+    {
+        "menuId": "070211",
+        "upMenuId": "0702",
+        "menuIcon": "el-icon-menu",
+        "funcUrl": "/trade/core/cash/eVoucherMaintain",
+        "menuName": "电子凭证模版维护"
+    },
+    {
+        "menuId": "070212",
+        "upMenuId": "0702",
+        "menuIcon": "el-icon-menu",
+        "funcUrl": "/trade/core/cash/eVoucherOrgNameMaintain",
+        "menuName": "电子印章机构名称维护"
+    },
+    {
+        "menuId": "0703",
+        "upMenuId": "07",
+        "menuIcon": "el-icon-menu",
+        "funcUrl": "",
+        "menuName": "权限管理"
+    },
+    {
+        "menuId": "070301",
+        "upMenuId": "0703",
+        "menuIcon": "el-icon-menu",
+        "funcUrl": "/foundation/menumanager",
+        "menuName": "菜单管理"
+    },
+    {
+        "menuId": "070302",
+        "upMenuId": "0703",
+        "menuIcon": "el-icon-menu",
+        "funcUrl": "/foundation/authority/funmodmanager",
+        "menuName": "模块管理"
+    },
+    {
+        "menuId": "070303",
+        "upMenuId": "0703",
+        "menuIcon": "el-icon-menu",
+        "funcUrl": "/foundation/authority/functionmanager",
+        "menuName": "功能管理"
+    },
+    {
+        "menuId": "070304",
+        "upMenuId": "0703",
+        "menuIcon": "el-icon-menu",
+        "funcUrl": "/foundation/authority/authorCenter",
+        "menuName": "授权中心管理"
+    },
+    {
+        "upMenuId": "07",
+        "menuName": "统一规则管理",
+        "menuId": "0704",
+        "funcUrl": "",
+        "menuIcon": "el-icon-menu"
+    },
+    {
+        "menuId": "070401",
+        "upMenuId": "0704",
+        "menuIcon": "el-icon-menu",
+        "funcUrl": "/foundation/rules/rule-component-query",
+        "menuName": "规则组件查询"
+    },
+    {
+        "menuId": "070402",
+        "upMenuId": "0704",
+        "menuIcon": "el-icon-menu",
+        "funcUrl": "/foundation/rules/public-rule",
+        "menuName": "公共规则配置"
+    },
+    {
+        "menuId": "070403",
+        "upMenuId": "0704",
+        "menuIcon": "el-icon-menu",
+        "funcUrl": "/foundation/rules/scene-setting",
+        "menuName": "交易规则配置"
+    },
+    {
+        "menuId": "070404",
+        "upMenuId": "0704",
+        "menuIcon": "el-icon-menu",
+        "funcUrl": "/common/customerinfo",
+        "menuName": "客户信息"
+    },
+    {
+        "upMenuId": "0",
+        "menuName": "外围系统",
+        "menuId": "d97b8740-2233-11eb-a1b1-a55fe9673324",
+        "funcUrl": "/term/other/term/search",
+        "menuIcon": "el-icon-menu"
+    },
+    {
+        "upMenuId": "d97b8740-2233-11eb-a1b1-a55fe9673324",
+        "menuName": "质押系统",
+        "menuId": "d97b8741-2233-11eb-a1b1-a55fe9673324",
+        "funcUrl": "/term/other/term/search",
+        "menuIcon": "el-icon-menu"
+    },
+    {
+        "upMenuId": "d97b8741-2233-11eb-a1b1-a55fe9673324",
+        "menuName": "资产",
+        "menuId": "d97b8742-2233-11eb-a1b1-a55fe9673324",
+        "funcUrl": "/term/other/term/search",
+        "menuIcon": "el-icon-menu"
+    },
+    {
+        "upMenuId": "d97b8742-2233-11eb-a1b1-a55fe9673324",
+        "menuName": "查询",
+        "menuId": "d97b8743-2233-11eb-a1b1-a55fe9673324",
+        "funcUrl": "/term/other/term/search",
+        "menuIcon": "el-icon-menu"
+    },
+    {
+        "upMenuId": "d97b8742-2233-11eb-a1b1-a55fe9673324",
+        "menuName": "申请",
+        "menuId": "85cfe180-227a-11eb-a983-37830b4b5ab5",
+        "funcUrl": "/term/other/term/apply",
+        "menuIcon": "el-icon-menu"
+    },
+    {
+        "upMenuId": "01",
+        "menuName": "转账业务",
+        "menuId": "e0bba640-2259-11eb-8d52-f7ecba984fe1",
+        "funcUrl": "/business/transfer/transferAccounts",
+        "menuIcon": "el-icon-menu"
+    },
+    {
+        "upMenuId": "e0bba640-2259-11eb-8d52-f7ecba984fe1",
+        "menuName": "转账",
+        "menuId": "e0bba641-2259-11eb-8d52-f7ecba984fe1",
+        "funcUrl": "/business/transfer/transferAccounts",
+        "menuIcon": "el-icon-menu"
+    },
+    {
+        "upMenuId": "e0bba641-2259-11eb-8d52-f7ecba984fe1",
+        "menuName": "转出",
+        "menuId": "e0bba642-2259-11eb-8d52-f7ecba984fe1",
+        "funcUrl": "/business/transfer/transferAccounts",
+        "menuIcon": "el-icon-menu"
+    },
+    {
+        "upMenuId": "0",
+        "menuName": "主要交易",
+        "menuId": "0e4af3d0-2260-11eb-a922-83cafd220c51",
+        "funcUrl": "/mainTrade/cash/cashInfo",
+        "menuIcon": "el-icon-menu"
+    },
+    {
+        "upMenuId": "0e4af3d0-2260-11eb-a922-83cafd220c51",
+        "menuName": "账户中心",
+        "menuId": "0e4af3d1-2260-11eb-a922-83cafd220c51",
+        "funcUrl": "/mainTrade/cash/cashInfo",
+        "menuIcon": "el-icon-menu"
+    },
+    {
+        "upMenuId": "0e4af3d1-2260-11eb-a922-83cafd220c51",
+        "menuName": "现金交易",
+        "menuId": "0e4af3d2-2260-11eb-a922-83cafd220c51",
+        "funcUrl": "/mainTrade/cash/cashInfo",
+        "menuIcon": "el-icon-menu"
+    },
+    {
+        "upMenuId": "0e4af3d0-2260-11eb-a922-83cafd220c51",
+        "menuName": "购物车交易",
+        "menuId": "0e4af3d2-2260-11eb-a922-83cafd220c53",
+        "funcUrl": "/trade/shopping",
+        "menuIcon": "el-icon-menu"
+    },
+    {
+        "upMenuId": "0e4af3d2-2260-11eb-a922-83cafd220c51",
+        "menuName": "现金转入",
+        "menuId": "0e4af3d3-2260-11eb-a922-83cafd220c51",
+        "funcUrl": "/mainTrade/cash/cashInfo",
+        "menuIcon": "el-icon-menu"
+    },
+    {
+        "upMenuId": "06",
+        "menuName": "水费",
+        "menuId": "dbd64de0-2238-11eb-af78-4f9218e5570e",
+        "funcUrl": "/foundation/term/water",
+        "menuIcon": "el-icon-menu"
+    }
+
+]

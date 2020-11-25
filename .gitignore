@@ -1,0 +1,12 @@
+/node_modules
+mock/service/.DS_Store
+.DS_Store
+/doc
+package-lock.json
+# *.zip
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+dist
